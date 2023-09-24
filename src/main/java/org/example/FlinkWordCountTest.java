@@ -6,7 +6,7 @@ import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.util.Collector;
 
-public class WordCountBatch {
+public class FlinkWordCountTest {
     public static void main(String[] args) throws Exception {
         String inPath = "/Users/jiale.he/IdeaProjects/flink-aspect-demo/src/main/resources/hello.txt";
         String outPath = "/Users/jiale.he/IdeaProjects/flink-aspect-demo/src/main/resources/output.txt";
